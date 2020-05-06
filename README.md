@@ -6,3 +6,4 @@ One of the principal problems I encounter when scheduling with a small contracto
 
 Created a chatbot to solve some scheduling and business problems and deploy in the google cloud plataform,
 also the model is going is going to use rasa as a plataform where the natural language understanding will perform the intent recognition. 
+The model is going to use twilio for the basic texting base
