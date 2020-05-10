@@ -47,3 +47,12 @@
     - utter_out_of_scope
     - open_incident_form
     - form{"name":null}
+
+## ask_about_classes
+* greet
+    - utter_welcome_to_viva
+* class_schedule_ques
+    - weather_form
+    - form{"name": "weather_form"}
+    - form{"name": null}
+    - slot{"dance_type": "bachata"}

@@ -14,10 +14,19 @@ intents:
     use_entities: []
 - out_of_scope
 - restart
+- class_schedule_ques
+- loc_info
 
 entities:
 - email
 - priority
+- dance_type
+- classes_type
+- location
+
+actions:
+- action_viva
+
 slots:
   email:
     type: unfeaturized
@@ -28,6 +37,16 @@ slots:
   problem_description:
     type: unfeaturized
   requested_slot:
+    type: unfeaturized
+  dance_type:
+    type: text
+  class_info:
+    type: unfeaturized
+    # values:
+    # - bachata
+    # - salsa
+    # - both
+  classes_type:
     type: unfeaturized
 responses:
   utter_out_of_scope:
@@ -65,6 +84,10 @@ responses:
   - text: You're welcome!
   utter_default:
   - text: I didn't quite understand that. Could you rephrase?
-
+  utter_welcome_to_viva:
+  - text: Welcome to Viva Social Dance studio how can I help you today?
+  utter_class_info:
+  - text: This is the schedule for the {dance_type} classes
 forms:
 - open_incident_form
+- weather_form
