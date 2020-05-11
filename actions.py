@@ -101,7 +101,7 @@ class weatherForm(FormAction):
         return "weather_form"
 
     @staticmethod
-    def required_slots(tracker: Tracker) -> List[Text]:
+    def required_slots(tracker: Tracker, dispatcher: CollectingDispatcher) -> List[Text]:
         if tracker.get_slot('location') is None:
             dispatcher.utter_message("please provide location") 
         return["dance_type", "classes_type", "location"]
