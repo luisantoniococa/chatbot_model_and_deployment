@@ -54,5 +54,11 @@
 * class_schedule_ques
     - weather_form
     - form{"name": "weather_form"}
+    - slot{"dance_type": "bachata", "class_type": "classes","location":"Kansas City"}
     - form{"name": null}
-    - slot{"dance_type": "bachata"}
+
+## ask about schedule path
+* greet
+    - utter_welcome_to_viva
+* info_class_schedule
+    - utter_class_info

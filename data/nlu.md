@@ -66,11 +66,17 @@
 - can you please help me
 
 ## intent:class_schedule_ques
-- I wanted to know about your [bachata](dance_type) [classes](classes_type)
-- Do you guys offer [salsa](dance_type) [lessons](classes_type)?
-- When are your [salsa](dance_type) [classes](classes_type)?
-- Do you offer [bachata](dance_type) [privates](classes_type)?
+- I wanted to know about your [bachata](dance_type) [classes](class_type)
+- Do you guys offer [salsa](dance_type) [lessons](class_type)?
+- When are your [salsa](dance_type) [classes](class_type)?
+- Do you offer [bachata](dance_type) [privates](class_type)?
 - do you have [salsa](dance_type) and [bachata](dance_type) [classes](class_type)?
+- tell me about your [salsa](dance_type) [classes](class_type)
+- where are the [salsa](dance_type) [classes](class_type)
+- can you tell me when the [bachata](dance_type) [classes](class_type) are offered?
+- What days you guys offer [bachata](dance_type) [class](class_type)
+- I am intereste din your [salsa](dance_type) [lessons](class_type)
+- Do you know when I can get the [bachata](dance_type) [classes](class_type)
 
 ## intent:problem_email
 - my outlook application won't open
@@ -99,7 +105,7 @@
 - [escalate]{"entity": "priority", "value": "high"}
 - [super high](priority)
 
-## intent:loc_inform
+## intent:loc_info
 - [Sitka](location)
 - [Juneau](location)
 - [Virginia](location)
@@ -180,7 +186,7 @@
 - [San Diego](location)
 - [San Antonio](location)
 - [El Paso](location)
-- [Kansas location](location)
+- [Kansas City](location)
 - [San Francisco](location)
 - [Santa Barbara](location)
 
@@ -197,3 +203,15 @@
 - I want to order a pizza
 - what is the weather today
 - what is the weather
+
+## intent:info_class_schedule
+- what is the schedule for this week?
+- class schedule
+- programmed schedule
+- ladies schedule
+- schedule for this sunday
+- is it the same schedule
+- at what time do I have to come this sunday
+- what is the schedule for sunday
+- has been there a modification for the sunday schedule
+- cna you tell me if the schedule is the same this week

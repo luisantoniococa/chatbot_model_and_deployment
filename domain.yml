@@ -16,12 +16,13 @@ intents:
 - restart
 - class_schedule_ques
 - loc_info
+- info_class_schedule
 
 entities:
 - email
 - priority
 - dance_type
-- classes_type
+- class_type
 - location
 
 actions:
@@ -46,8 +47,10 @@ slots:
     # - bachata
     # - salsa
     # - both
-  classes_type:
+  class_type:
     type: unfeaturized
+  location:
+    type: text
 responses:
   utter_out_of_scope:
   - text: Sorry, I'm not sure how to respond to that. Type "help" for assistance.
@@ -88,6 +91,10 @@ responses:
   - text: Welcome to Viva Social Dance studio how can I help you today?
   utter_class_info:
   - text: This is the schedule for the {dance_type} classes
+  - text: Sunday classes will be as normall
+  - text: let me get back at you with more information
+  utter_ask_location:
+  - text: I see you are looking for {dance_type} {class_type}, Please provide me with your current location
 forms:
 - open_incident_form
 - weather_form
