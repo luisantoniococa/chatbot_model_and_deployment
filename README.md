@@ -7,4 +7,4 @@ One of the principal problems I encounter when scheduling with a small contracto
 Created a chatbot to solve some scheduling and business problems and deploy in the google cloud plataform,
 also the model is going is going to use rasa as a plataform where the natural language understanding will perform the intent recognition. 
 The model is going to use twilio for the basic texting base and it will connect to a database designed to save clients data in postgreSQL
-Further we are going to retrain the model with the user test chats using the Rasa-X plataform. We are going to create a container for this model and eventually run it in docker. 
+Further we are going to retrain the model with the user test chats using the Rasa-X plataform. We are going to create a container for this model and eventually run it in docker. The pre trained example with rasa is going to be our initial base model
