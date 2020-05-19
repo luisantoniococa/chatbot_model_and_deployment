@@ -215,3 +215,8 @@
 - what is the schedule for sunday
 - has been there a modification for the sunday schedule
 - cna you tell me if the schedule is the same this week
+
+## intent:choreo_name
+- Did the schedule changed for campanitas?
+- do we have practice of loco on sunday?
+- at what time is ladies mambo this sunday?
